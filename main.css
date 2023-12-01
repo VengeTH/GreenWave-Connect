@@ -33,19 +33,41 @@ left: 100px;
 }
 .menu{
     display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
     height: 100vh;
 }
 .AbtUs{
-    height: 30px;
-    width: 100px;
+    display: flex;
+    background-color: rgba(68, 255, 0, 0.338);
+    position: relative;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    top: 15px;
+    left: 135px;
+    height: 40px;
+    width: 150px;
     color: wheat;
-    background-color: lightgreen;
-    border-radius: 70px;
-    text-align: center;
+    border-radius: 80px;
 }
 .AbtUs a{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: inherit;
+}
+.goal{
+    display: flex;
+    background-color: rgba(68, 255, 0, 0.338);
+    position: relative;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    top: 15px;
+    left: 170px;
+    height: 40px;
+    width: 150px;
+    color: wheat;
+    border-radius: 80px;
+}
+.goal a{
+    text-decoration-line: none;
     text-decoration: none;
     color: inherit;
 }
