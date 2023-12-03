@@ -1,5 +1,5 @@
 body {
-	background-image: url("pics/main/bg1.jpg");
+	background-image: url("pics/main/bg1-cutted.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -66,4 +66,7 @@ nav {
 	/* change the color to a darker version */
 	background-color: rgba(40, 90, 21, 0.81);
 	color: wheat;
+}
+.fonted{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif
 }
