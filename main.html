@@ -9,25 +9,7 @@
 		<link rel="stylesheet" href="main.css" />
 		<script src="main.js"></script>
 	</head>
-	<body class="h-[300vh]">
-		<script>
-			tailwind.config = {
-				theme: {
-					extend: {
-						colors: {
-							clifford: "#da373d",
-						},
-					},
-				},
-			};
-		</script>
-		<style type="text/tailwindcss">
-			@layer utilities {
-				.content-auto {
-					content-visibility: auto;
-				}
-			}
-		</style>
+	<body>
 		<header>
 			<div
 				class="flex flex-row flex-wrap items-center justify-center px-5 pt-5 w-full pb-0">
@@ -75,6 +57,25 @@
 					>Contact Us</a>
 			</div>
 		</nav>
+	<div class="bg-[url('pics/main/bg1-cutted.jpg')] bg-cover  h-[100vh]">
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							clifford: "#da373d",
+						},
+					},
+				},
+			};
+		</script>
+		<style type="text/tailwindcss">
+			@layer utilities {
+				.content-auto {
+					content-visibility: auto;
+				}
+			}
+		</style>
 		<main>
 			<!--Background-->
 			<!--add code here-->
@@ -142,12 +143,28 @@
 								<p class="text-white font-bold">
 									>>
 								</p>
+									</div>
+								</a>
 							</div>
-						</a>
 						</div>
-					</div>
-				</main>
-			<footer>
-		</footer>
+					</main>
+				<footer>
+			</footer>
+		</div>
+		<!--Put another content here with other background image-->
+		<!--About Us-->
+		<div class="bg-[url('./pics/main/bg2.jpg')] bg-cover bg-no-repeat h-[100vh]" alt="new image" id="abtusz">
+
+			</div>
+			<!--Goal-->
+			<div class="bg-[#cbdee2] bg-cover bg-no-repeat h-[100vh]" alt="new image" id="abtusz">
+
+			</div>
+			<!--Learn-->
+			<div class="bg-[#c2c6cf] bg-cover bg-no-repeat h-[100vh]" alt="new image" id="abtusz">
+			</div>
+			<!--Games-->
+			<div class="bg-[#74a5b4] bg-cover bg-no-repeat h-[100vh]" alt="new image" id="abtusz">
+			</div>
 	</body>
 </html>
