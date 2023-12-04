@@ -60,8 +60,14 @@ nav {
 .button-default:hover {
 	/* change the color to a darker version */
 	background-color: rgba(40, 90, 21, 0.81);
-	color: wheat;
+	color: white;
 }
 .fonted{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif
+}
+.fontexz{
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.railz{
+	font-family: 'Inconsolata', monospace;
 }
